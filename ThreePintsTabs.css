@@ -5,9 +5,7 @@ div.tabbed-menu {
     white-space: nowrap;
 }
 
-/*  This ul class defines how your menu options
-    will be arranged and also gives us a nice 
-    dividing line between the menu and the content. */
+
 ul.tabs {
     text-align: center;
     list-style: none;
@@ -19,43 +17,37 @@ ul.tabs {
     border-bottom: 1px solid #DDDDDD;
 }
 
-/*  This defines the look of the individual tabs of 
-    your menu when they are contained in a tabs class ul */
+
 ul.tabs li {
     margin-bottom: -1px;
     padding: 3px 10px 0 10px;
     border: 1px solid #DDDDDD;
     background: #ccd; 
     
-    /*  inline-block tells the browser to arrange the list
-        elements in a line rather than each element on its
-        own line. */
+    
     display: inline-block;
     
-    /* The attributes here round the top left
-        and right corners of the tabs. */
+    
     border-top-left-radius: 6px; 
     border-top-right-radius: 6px;
 }
-/* This defines what a tab should look like when selected */
+
 ul.tabs li.selected {
     background: #ccc;
     border-bottom-color: transparent;
 }
-/* This defines how a tab looks when your mouse hovers above it */
+
 ul.tabs li:hover {
     color: #333333;
     cursor: pointer;
     background: #FFFFFF;
 }
 
-/*  This centers all of the text within a page element */
+
 div.page {
     text-align: center;
 }
-/*  This overrides the text centering we defined above if
-    the text is within a list and also tells your browser
-    not to put bullet points next to the text. */
+
 div.page li {
     text-align: left;
     list-style-type: none;
